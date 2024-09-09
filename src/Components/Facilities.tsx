@@ -68,7 +68,7 @@ const Facilities = () => {
     setHoverStates(newHoverStates);
   };
   return (
-    <Box sx={{ flexGrow: 1 }} paddingInline={8}>
+    <Box sx={{ flexGrow: 1 }} paddingInline={{sm:8, xs:2}}>
       <Typography
         variant="h4"
         fontFamily={"inter"}

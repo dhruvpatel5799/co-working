@@ -61,7 +61,7 @@ function AppHeader() {
       >
         <img src={coWorking} alt="" style={{ width: "100%" }} />
         <Typography
-          variant="h6"
+          variant="h4"
           fontWeight={600}
           justifySelf={"center"}
           letterSpacing={-1}
