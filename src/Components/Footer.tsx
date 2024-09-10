@@ -5,7 +5,7 @@ import appStore from "../assets/appStore.svg";
 
 function Footer() {
   return (
-    <Box padding={8}>
+    <Box padding={{sm:8, xs:2}}>
           <Typography
             fontFamily="Inter"
             fontSize={{lg:36, md:36, sm:24}}
